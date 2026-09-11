@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+<meta charset="utf-8">
+<title>ความหมายของสับเซต</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#E8F5E9;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+
+header{
+    background-image:url(images/header.jpg);
+    background-size:cover;
+    background-position:center;
+    height:256px;
+}
+
+section{
+    display:flex;
+}
+
+nav{
+    background-color:#1B5E20;
+    height:400px;
+    flex:1;
+}
+
+article{
+    background-color:#FAFFF9;
+    height:400px;
+    flex:3;
+    padding:25px;
+    color:#263238;
+}
+
+article h1{
+    color:#2E7D32;
+    margin-bottom:15px;
+}
+
+article p{
+    line-height:1.8;
+}
+
+.example{
+    background-color:#E8F5E9;
+    border-left:5px solid #43A047;
+    padding:15px;
+    margin-top:15px;
+    line-height:1.8;
+}
+
+footer{
+    background-color:#388E3C;
+    padding:25px;
+    text-align:center;
+    color:white;
+}
+
+a:link{
+    color:white;
+    text-decoration:none;
+    background-color:#2E7D32;
+    display:block;
+    width:100%;
+    padding:15px;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:white;
+    background-color:#66BB6A;
+}
+
+a:active{
+    color:#E8F5E9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header></header>
+
+<section>
+
+<nav>
+<ul style="list-style-type:none;">
+<li><a href="index.html">สับเซต</a></li>
+<li><a href="page2.html">ความหมายของสับเซต</a></li>
+<li><a href="page3.html">ประเภทของสับเซต</a></li>
+<li><a href="page4.html">การตรวจสอบสับเซต</a></li>
+<li><a href="page5.html">ตัวอย่างการใช้สับเซต</a></li>
+</ul>
+</nav>
+
+<article>
+
+<h1>ความหมายของสับเซต</h1>
+
+<p>
+สับเซต คือ เซตที่สมาชิกทุกตัวของเซตนั้น
+เป็นสมาชิกของอีกเซตหนึ่ง
+</p>
+
+<div class="example">
+<strong>ตัวอย่าง</strong><br>
+กำหนดให้ A = {1, 2}<br>
+และ B = {1, 2, 3, 4}<br><br>
+
+จะเห็นว่าสมาชิกของ A ทุกตัว
+เป็นสมาชิกของ B ดังนั้น<br>
+
+<strong>A ⊆ B</strong>
+</div>
+
+<br>
+
+<p>
+สัญลักษณ์ ⊆ อ่านว่า “เป็นสับเซตของ”
+ดังนั้น A ⊆ B หมายความว่า
+เซต A เป็นสับเซตของเซต B
+นอกจากนี้ เซตว่าง ∅ เป็นสับเซตของทุกเซต
+และทุกเซตเป็นสับเซตของตัวมันเอง
+</p>
+
+<br>
+
+
+
+</article>
+
+</section>
+
+<footer>
+<p>
+จัดทำโดย<br>
+โรงเรียนรัตนราษฏร์บำรุง
+</p>
+</footer>
+
+</div>
+
+</body>
+</html>
